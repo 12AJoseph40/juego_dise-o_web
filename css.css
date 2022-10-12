@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url("no.png");
+    background-position: center;
+    background-position-y: -40px ;
+    background-position-x: 497px;
+    background-size: contain;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    }
+
+.fondo{
+    height: 100vh;
+    background: linear-gradient(45deg,lightgreen,green,rgb(23, 95, 23),rgb(5, 51, 5))0 0 / 1000% no-repeat;
+    animation: animate 5s ease infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0 30%, 0 0;
+    }
+    50%{
+        background-position: 100% 70%, 0 0;
+    }
+    100%{
+        background-position: 0 30%, 0 0;
+    }
+}
